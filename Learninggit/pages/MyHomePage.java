@@ -14,7 +14,7 @@ public class MyHomePage extends ProjectMethods{
 	public MyHomePage() {		
 		PageFactory.initElements(driver,this);
 	}	
-	
+	//My Home page
 	@FindBy(how=How.LINK_TEXT,using="Leads")
 	private WebElement eleLeads;
 	@And("click Leads button")
